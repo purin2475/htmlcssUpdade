@@ -1,0 +1,234 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: "Bruno Ace SC",sans-serif;
+	line-height: 1.5;
+	}
+*,
+*::before,
+*::after{
+	box-sizing: border-box;
+	/* outline: solid 1px; */
+}
+
+a{
+	text-decoration: none;
+	font-display: inline-block;
+	color: inherit;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+	vertical-align:middle;
+}
+
+.header{
+	color: #D1D1D1;
+	background-color: #000000;
+}
+
+.nav{
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0 ;
+}
+
+.btn{
+	padding: 12px 24px;
+	border-radius: 32px;
+}
+.btn-white{
+	color: #000000;
+	background-color: white;
+	
+}
+.btn-black{
+	color: white;
+	background-color: #000000;
+
+}
+.main{
+	background-color: #000000;
+	color:white;
+}
+
+.main-title{
+	display: block;
+	text-align: right;
+}
+
+.intro{
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:white;
+	padding: 160px 0;
+}
+
+.intro-desc{
+	width: 526px;
+}
+
+.about{
+	padding: 160px 0;
+	/* line-height: 1.5; */
+}
+.about li{
+	padding: 16px 16px 16px 16px;
+}
+.about-list{
+	width: 636px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.about-list li{
+	width: calc(50% - 12px);
+	border: 1px solid #E3E3E3;
+	box-shadow: 4px 4px 4px 0 rgba(0,0,0,0.08);
+	padding: 0 auto;
+}
+
+.about-desc{
+	width: 526px;
+}
+
+.about-desc p{
+	line-height: 1.5;
+}
+
+.contact{
+	background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+	padding: 96px 0;
+}
+.contact-me h2{
+	color:white;
+/*	width: 657px;*/
+}
+.contact h2{
+	text-align: center;
+}
+
+.footer{
+	background-color: #000000;
+	color:white;
+	padding: 40px 0;
+	text-align: center;
+}
+.icon-link{
+	border-radius: 40px;
+	transition: 1s;
+}
+
+.icon-link:hover{
+	box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
+}
+
+.project-title{
+	width: 746px;
+	margin-left: auto;
+}
+
+
+
+.project{
+	padding:160px 0;
+}
+
+.container{
+	width: 1296px;
+	margin: 0 auto;
+
+}
+
+.h1{
+	font-size:128px;
+}
+
+.h2{
+	font-size:64px;
+}
+
+.fs-1{
+	font-size:32px;
+}
+
+.fs-2{
+	font-size:24px;
+}
+
+.fs-3{
+	font-size:20px;
+}
+
+.text-color{
+	color: #00ffa3;
+}
+
+.dy-flex{
+	display:flex;
+}
+.flex-column{
+	flex-direction: column;
+}
+
+.ai-center{
+	align-items: center;
+}
+.ai-start{
+	align-items: flex-start;
+}
+
+.jc-end{
+	justify-content: flex-end;
+}
+.jc-sb{
+	justify-content: space-between;
+}
+.jc-c{
+	justify-content: center;
+}
+
+
+.pg-6{
+	padding-left: 24px;
+}
+
+.mr-6{
+	margin-right: 24px;
+}
+.pb-9{
+	padding-bottom: 36px;
+}
+.pt-7{
+	padding-top: 28px;
+}
+.pb-4{
+	padding-bottom: 16px;
+}
+.ml-6{
+	margin-left: 24px;
+}
+.mb-6{
+	margin-bottom: 24px;
+}
+.mr-4{
+	margin-right: 16px;
+}
+.ml-4{
+	margin-left: 16px;
+}
+.mr-5{
+	margin-right: 20px;
+}
+.ml-113{
+	margin-left: 113px;
+}
+
+
+
+
+
+
+
